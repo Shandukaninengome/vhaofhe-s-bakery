@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order / Enquiry - Vhaofhe's Bakery</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+
+    <h1>Vhaofhe's Bakery</h1>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Our Products</a></li>
+            <li><a href="enquiry.html">Order / Enquiry</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<main>
+
+    <h1>Order / Enquiry</h1>
+
+    <p>
+        Complete the form below if you would like to place an order
+        or make an enquiry.
+    </p>
+
+
+    <form>
+
+        <p>
+            <label for="name">Full Name:</label>
+            <br>
+
+            <input type="text"
+                   id="name"
+                   name="name"
+                   required>
+        </p>
+
+
+        <p>
+            <label for="email">Email Address:</label>
+            <br>
+
+            <input type="email"
+                   id="email"
+                   name="email"
+                   required>
+        </p>
+
+
+        <p>
+            <label for="phone">Telephone Number:</label>
+            <br>
+
+            <input type="tel"
+                   id="phone"
+                   name="phone">
+        </p>
+
+
+        <p>
+            <label for="product">Select Product:</label>
+            <br>
+
+            <select id="product" name="product">
+
+                <option value="">
+                    -- Select a product --
+                </option>
+
+                <option value="strawberry-cake">
+                    Strawberry Cake
+                </option>
+
+                <option value="chocolate-cake">
+                    Chocolate Cake
+                </option>
+
+                <option value="vanilla-cake">
+                    Vanilla Cake
+                </option>
+
+                <option value="blueberry-cheesecake">
+                    Blueberry Cheesecake
+                </option>
+
+                <option value="cupcakes">
+                    Cupcakes
+                </option>
+
+                <option value="oreo-cupcakes">
+                    Oreo Cupcakes
+                </option>
+
+                <option value="assorted-rolls">
+                    Assorted Rolls
+                </option>
+
+                <option value="cinnamon-rolls">
+                    Cinnamon Rolls
+                </option>
+
+                <option value="pastries">
+                    Pastries
+                </option>
+
+                <option value="strawberry-milkshake">
+                    Strawberry Milkshake
+                </option>
+
+                <option value="oreo-milkshake">
+                    Oreo Milkshake
+                </option>
+
+                <option value="strawberry-smoothie">
+                    Strawberry Smoothie
+                </option>
+
+                <option value="pink-ice-cream-shake">
+                    Pink Ice Cream Shake
+                </option>
+
+            </select>
+        </p>
+
+
+        <p>
+            <label for="quantity">Quantity:</label>
+            <br>
+
+            <input type="number"
+                   id="quantity"
+                   name="quantity"
+                   min="1">
+        </p>
+
+
+        <p>
+            <label for="date">Date:</label>
+            <br>
+
+            <input type="date"
+                   id="date"
+                   name="date">
+        </p>
+
+
+        <p>
+            <label for="message">Message / Enquiry:</label>
+            <br>
+
+            <textarea id="message"
+                      name="message"
+                      rows="6"
+                      cols="40"></textarea>
+        </p>
+
+
+        <p>
+
+            <button type="submit">
+                Submit Enquiry
+            </button>
+
+        </p>
+
+    </form>
+
+</main>
+
+<footer>
+
+    <p>
+        &copy; 2026 Vhaofhe's Bakery. All rights reserved.
+    </p>
+
+</footer>
+
+</body>
+</html>
