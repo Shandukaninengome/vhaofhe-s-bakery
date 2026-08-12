@@ -1,35 +1,31 @@
 # Vhaofhe's Bakery
 
-## Project Title
-
-Vhaofhe's Bakery Website
-
 ## Student Information
 
-Student Name: Nengome Shandukani
-
-Student Number: ST10513838
-
-Module: WEDE5020
+Student Name: Nengome Shandukani  
+Student Number: ST10513838  
+Course: Web Development (Introduction)  
+Module: WEDE5020  
+Project: Vhaofhe's Bakery Website  
 
 ## Project Overview
 
-Vhaofhe's Bakery is a website created to provide customers with information about the bakery and its products.
+Vhaofhe's Bakery is a website project created to give the bakery an online presence. The website allows visitors to learn about the bakery, view bakery products, submit an order or enquiry, and find contact and operating-hour information.
 
-The website allows visitors to learn about the bakery, view products, make an enquiry and find contact information.
+The website is designed to be simple, clear and easy to navigate.
 
 ## Website Goals and Objectives
 
-The main goals of the website are:
+The main goal of the website is to provide Vhaofhe's Bakery with a clear online presence.
 
-- To provide information about Vhaofhe's Bakery.
-- To display bakery products.
-- To provide product prices.
-- To allow customers to make an enquiry.
-- To provide contact details and opening hours.
-- To provide the bakery location using Google Maps.
-- To provide social-media links.
-- To provide a simple and easy-to-use website.
+The objectives are to:
+
+- Provide information about the bakery and its products.
+- Display bakery products with images and prices.
+- Allow customers to submit an order or enquiry.
+- Provide contact details and business operating hours.
+- Provide simple and consistent navigation between the website pages.
+- Present the bakery in a professional and welcoming way.
 
 ## Website Pages
 
@@ -41,79 +37,49 @@ The website contains five main pages:
 4. Order / Enquiry
 5. Contact
 
-## Features
+## Key Features
 
-- Bakery logo
-- Navigation menu
-- Product images
-- Product prices
-- Enquiry form
-- Contact information
-- Opening hours
-- Google Maps
-- Social-media links
-- Responsive design
+- Simple navigation menu.
+- Bakery information.
+- Product images.
+- Product descriptions and prices.
+- Order / enquiry form.
+- Contact information.
+- Business operating hours.
+- Bakery logo.
+- Responsive layout.
+- Consistent CSS styling.
 
 ## File Structure
 
-Vhaofhe's bakery/
-
-    index.html
-
-    about.html
-
-    products.html
-
-    enquiry.html
-
-    contact.html
-
-    README.md
-
-    CHANGELOG.md
-
-    css/
-
-        style.css
-
-    images/
-
-        logo.svg
-
-        product images
-
-## Technologies Used
-
-HTML5
-
-CSS3
-
-## Testing
-
-The website should be tested in:
-
-- Google Chrome
-- Microsoft Edge
-- Mozilla Firefox
-
-The website should also be tested on different screen sizes to check the responsive design.
-
-## Sitemap
-
-Home
-|
-|-- About Us
-|
-|-- Our Products
-|
-|-- Order / Enquiry
-|
-|-- Contact
-
-## References
-
-The references used for the project should be listed in the project proposal and research documentation.
-
-## Changelog
-
-See CHANGELOG.md for the development changes made to the website.
+```text
+Vhaofhe's Bakery/
+│
+├── index.html
+├── about.html
+├── products.html
+├── enquiry.html
+├── contact.html
+├── README.md
+├── CHANGELOG.md
+│
+├── css/
+│   └── style.css
+│
+└── images/
+    ├── logo.png
+    ├── assorted-rolls.jpg
+    ├── blueberry-cheesecake.jpg
+    ├── cake-slices.jpg
+    ├── chocolate-cake.jpg
+    ├── cinnamon-rolls.jpg
+    ├── cupcakes-1.jpg
+    ├── cupcakes-2.jpg
+    ├── oreo-cupcakes.jpg
+    ├── oreo-milkshake.jpg
+    ├── pastries.jpg
+    ├── pink-ice-cream-shake.jpg
+    ├── strawberry-cake.jpg
+    ├── strawberry-milkshake.jpg
+    ├── strawberry-smoothie.jpg
+    └── vanilla-cake.jpg
